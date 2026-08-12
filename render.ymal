@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: iptv-proxy-server
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
